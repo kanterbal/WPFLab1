@@ -5,31 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFLab1"
         mc:Ignorable="d"
-        Title="Kalkuljator" Height="658.211" Width="522.697">
+        Title="Kalkuljator" Height="605.711" Width="441.697">
     <Grid Margin="0,0,3.667,-0.333">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="White" Offset="0"/>
-                <GradientStop Color="Red" Offset="1"/>
+                <GradientStop Color="Red" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
         <TextBlock x:Name="textBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" Margin="10,20,10,0" Background="White"/>
-        <Button x:Name="button" Content="7" Margin="10,150,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button1" Content="8" Margin="140,150,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button2" Content="9" Margin="274,150,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button_Copy" Content="4" Margin="10,272,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button1_Copy" Content="5" Margin="140,272,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button2_Copy" Content="6" Margin="274,272,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button_Copy1" Content="1" Margin="10,394,0,-23.333" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button1_Copy1" Content="2" Margin="140,394,0,-23.333" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button2_Copy1" Content="3" Margin="274,394,0,-23.333" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button_Copy2" Content="1" Margin="10,505,0,-0.333" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button1_Copy2" Content="2" Margin="140,505,0,-0.333" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button2_Copy2" Content="3" Margin="274,505,0,-0.333" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button2_Copy3" Content="9" Margin="393,150,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button2_Copy4" Content="6" Margin="393,272,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button2_Copy5" Content="3" Margin="393,394,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
-        <Button x:Name="button2_Copy6" Content="3" Margin="393,505,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="7" Margin="10,150,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button1" Content="8" Margin="115,150,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button2" Content="9" Margin="220,150,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button_Copy" Content="4" Margin="10,255,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button1_Copy" Content="5" Margin="115,255,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button2_Copy" Content="6" Margin="220,255,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button_Copy1" Content="1" Margin="10,360,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button1_Copy1" Content="2" Margin="115,360,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button2_Copy1" Content="3" Margin="220,360,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button_Copy2" Content="0" Margin="10,465,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button1_Copy2" Content="," Margin="115,465,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button2_Copy2" Content="=" Margin="220,465,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button2_Copy3" Content="+" Margin="325,150,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button2_Copy4" Content="-" Margin="325,255,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button2_Copy5" Content="*" Margin="325,360,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="button2_Copy6" Content="/" Margin="325,465,0,0" HorizontalAlignment="Left" Width="100" Height="100" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
 
     </Grid>
 </Window>
